@@ -253,6 +253,7 @@ Este es código de prototipo de investigación, publicado tal como se usó en la
 
 ## Reconocimientos y prensa
 
+- **Primer lugar en la competencia estudiantil internacional de LEIRD 2025**, la Multiconferencia Internacional sobre Emprendimiento, Innovación y Desarrollo Regional del Consorcio Latinoamericano y del Caribe de Instituciones de Ingeniería (LACCEI), en Cartagena, Colombia. Nota en La Web de la Salud: [*Estudiantes de la UTP crean NERO, sistema de rehabilitación con visión social que triunfa en certamen de innovación internacional*](https://lawebdelasalud.com/estudiantes-de-la-utp-crean-nero-sistema-de-rehabilitacion-con-vision-social-que-triunfa-en-certamen-de-innovacion-internacional/), 12 de diciembre de 2025.
 - **Columna de opinión en La Prensa (Panamá).** Rances Tello, [*Cuando la ingeniería devuelve autonomía: NERO y el futuro de la tecnología asistiva en Panamá*](https://www.prensa.com/opinion/cuando-la-ingenieria-devuelve-autonomia-nero-y-el-futuro-de-la-tecnologia-asistiva-en-panama/), 19 de enero de 2026.
 
 ## Cómo citar
