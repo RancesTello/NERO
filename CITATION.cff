@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "Si usas este trabajo, cita el artículo."
+title: "NERO: interfaz cerebro-computadora híbrida EEG-EMG-inercial"
+license: MIT
+authors:
+  - family-names: "Tello O."
+    given-names: "Rances J."
+    orcid: "https://orcid.org/0009-0005-2849-8562"
+    email: "rances.tello@ieee.org"
+    affiliation: "Universidad Tecnológica de Panamá"
+  - family-names: "Mendieta C."
+    given-names: "Emely G."
+    orcid: "https://orcid.org/0009-0001-9384-5330"
+    affiliation: "Universidad Tecnológica de Panamá"
+  - family-names: "Pérez"
+    given-names: "Luiyiana"
+    affiliation: "Universidad Tecnológica de Panamá"
+preferred-citation:
+  type: conference-paper
+  title: "NERO: Una Interfaz Cerebro-Computadora Híbrida EEG-EMG-Inercial para la Neurorrehabilitación Asistida del Miembro Superior"
+  authors:
+    - family-names: "Tello O."
+      given-names: "Rances J."
+    - family-names: "Mendieta C."
+      given-names: "Emely G."
+    - family-names: "Pérez"
+      given-names: "Luiyiana"
+  collection-title: "VIII Congreso Internacional en Tecnología y Educación (TEDUCA 2026 / AmITIC)"
+  conference:
+    name: "TEDUCA 2026 / AmITIC"
+    city: "Bucaramanga"
+    country: "CO"
+  publisher:
+    name: "IEEE"
+  isbn: "979-8-3195-2019-7"
+  year: 2026

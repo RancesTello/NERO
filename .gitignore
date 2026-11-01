@@ -1,0 +1,59 @@
+# ===== Credenciales y configuración local =====
+.env
+.env.*
+!.env.example
+secrets.h
+arduino_secrets.h
+**/secrets/
+*.pem
+*.key
+
+# ===== Bases de datos y datos capturados =====
+*.db
+*.sqlite
+*.sqlite3
+neural_data.db
+postgres_data/
+superset_data/
+pgdata/
+data/raw/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Arduino / PlatformIO =====
+build/
+*.hex
+*.elf
+*.bin
+.pio/
+.vscode/.browse*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+
+# ===== Docker =====
+docker-compose.override.yml
+
+# ===== Sistema operativo y editores =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+
+# ===== Datos de participantes (uso interno del proyecto, no se publican) =====
+datos/
+*.csv
+*.dump
+*.vhdx
+superset_completo.sql

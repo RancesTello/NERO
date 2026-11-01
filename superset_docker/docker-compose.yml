@@ -1,0 +1,53 @@
+services:
+  postgres:
+    image: postgres:13
+    container_name: project-nero-postgres
+    restart: always
+    # Credenciales en el archivo .env (ver .env.example)
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  superset:
+    image: apache/superset:latest
+    container_name: project-nero-superset
+    depends_on:
+      - postgres
+    environment:
+      - SUPERSET_SECRET_KEY=${SUPERSET_SECRET_KEY}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - SUPERSET_LOAD_EXAMPLES=no
+    ports:
+      - "8088:8088"
+    volumes:
+      - ./superset_config.py:/app/pythonpath/superset_config.py
+      - superset_data:/app/superset_home
+    command: >
+      bash -c "
+      echo 'Instalando psycopg2-binary...' &&
+      pip install psycopg2-binary &&
+      echo 'Iniciando PROJECT NERO Superset...' &&
+      superset db upgrade &&
+      echo 'Creando usuario admin...' &&
+      superset fab create-admin --username admin --firstname PROJECT --lastname NERO --email admin@projectnero.com --password ${SUPERSET_ADMIN_PASSWORD} &&
+      echo 'Inicializando Superset...' &&
+      superset init &&
+      echo 'Servidor listo en http://localhost:8088' &&
+      superset run -h 0.0.0.0 -p 8088 --with-threads --reload --debugger
+      "
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8088/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  postgres_data:
+  superset_data:
