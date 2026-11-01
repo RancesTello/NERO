@@ -88,6 +88,7 @@ NERO/
 │   └── .env.example        Plantilla de credenciales
 ├── notebooks/
 │   └── Taller_NERO_IEEE_EMBS_UTP.ipynb
+├── hardware/stl/           Piezas de EduExo modificadas con el nombre NERO
 ├── prototipos_eeg_emg_imu/ Pruebas anteriores por sensor y envío a InfluxDB/Grafana
 └── docs/img/               Figuras del artículo
 ```
@@ -100,7 +101,7 @@ NERO/
 - BioAmp EXG Pill con electrodos de superficie Ag/AgCl
 - MPU6050
 - Servomotor MG996R con fuente externa de 5 a 6 V
-- Estructura EduExo impresa en 3D
+- Estructura EduExo impresa en 3D en PLA. Dos piezas llevan el nombre NERO: están en [`hardware/stl/`](hardware/stl/), y el resto se descarga de [EduExo](https://www.eduexo.com/)
 
 El artículo estima el costo total en menos de 500 USD.
 
@@ -278,4 +279,4 @@ Facultad de Ingeniería en Sistemas Computacionales, Universidad Tecnológica de
 
 El código está bajo la licencia MIT ([`LICENSE`](LICENSE)). Las figuras de [`docs/img/`](docs/img/) están bajo [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es): puedes usarlas y modificarlas citando este trabajo.
 
-Las piezas de la estructura mecánica pertenecen al proyecto EduExo y se rigen por su propia licencia.
+Las piezas de [`hardware/stl/`](hardware/stl/) son versiones modificadas del diseño de código abierto [EduExo](https://www.eduexo.com/), de Auxivo AG. No están cubiertas por la licencia MIT y se rigen por los términos de EduExo.
