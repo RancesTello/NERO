@@ -279,7 +279,7 @@ Facultad de Ingeniería en Sistemas Computacionales, Universidad Tecnológica de
 
 - Rances J. Tello O. ([ORCID 0009-0005-2849-8562](https://orcid.org/0009-0005-2849-8562)), rances.tello@ieee.org
 - Emely G. Mendieta C. ([ORCID 0009-0001-9384-5330](https://orcid.org/0009-0001-9384-5330))
-- Luiyiana Pérez
+- Luiyiana Pérez ([ORCID 0000-0001-5069-4950](https://orcid.org/0000-0001-5069-4950))
 
 ## Licencia
 
