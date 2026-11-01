@@ -20,6 +20,7 @@ Este repositorio acompaña el artículo *NERO: Una Interfaz Cerebro-Computadora 
 - [Datos de las sesiones](#datos-de-las-sesiones)
 - [Taller](#taller)
 - [Estado del código y limitaciones](#estado-del-código-y-limitaciones)
+- [Reconocimientos y prensa](#reconocimientos-y-prensa)
 - [Cómo citar](#cómo-citar)
 - [Autores](#autores)
 - [Licencia](#licencia)
@@ -249,6 +250,10 @@ Este es código de prototipo de investigación, publicado tal como se usó en la
 - **Mensajes de depuración.** `firmware/NERO` imprime líneas de depuración por el mismo puerto serial que usa para hablar con el ESP32. El ESP32 las descarta con el mensaje `Error en formato de datos`. `NERO_V2` las tiene desactivadas.
 - **Gamma.** El firmware no envía gamma, así que la columna `gamma` de `eeg_data` queda vacía o en 0.
 - **Validación.** Las pruebas fueron una validación técnica con una participante durante 45 minutos. No es un ensayo clínico y NERO no es un dispositivo médico certificado.
+
+## Reconocimientos y prensa
+
+- **Columna de opinión en La Prensa (Panamá).** Rances Tello, [*Cuando la ingeniería devuelve autonomía: NERO y el futuro de la tecnología asistiva en Panamá*](https://www.prensa.com/opinion/cuando-la-ingenieria-devuelve-autonomia-nero-y-el-futuro-de-la-tecnologia-asistiva-en-panama/), 19 de enero de 2026.
 
 ## Cómo citar
 
